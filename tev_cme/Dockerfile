@@ -7,4 +7,4 @@ COPY cme /usr/local/bin/cme
 COPY cmedb /usr/local/bin/cmedb
 RUN chmod +x /usr/local/bin/cme
 RUN chmod +x /usr/local/bin/cmedb
-ENTRYPOINT [ "/usr/local/bin/cme" ]
+CMD [ "cme" ]
